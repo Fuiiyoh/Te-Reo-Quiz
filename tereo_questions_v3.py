@@ -44,7 +44,6 @@ def quest_num(question):
       return many
     elif many == "20" or many == "twenty":
       many = "twenty"
-      
       return many
       
     else:
