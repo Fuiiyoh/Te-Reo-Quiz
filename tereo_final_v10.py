@@ -415,7 +415,7 @@ elif diff_mode == "hard":
 
   # question 16
   print(border1)
-  q16 = options(uline + "Question 16/20: When was the first Māori Language Week" + end + "\n1) 1959 \n2) 1963 \n3) 1968 \n4) 1975 \n", 0, 4)
+  q16 = options(uline + "Question 16/20: When was the first Māori Language Week?" + end + "\n1) 1959 \n2) 1963 \n3) 1968 \n4) 1975 \n", 0, 4)
   if q16 == 4:
     print(c_grn + "(4) 1975 is the correct answer, nice {}!".format(name) + end)
     correct += 1
@@ -448,7 +448,7 @@ elif diff_mode == "hard":
 
     # question 19
   print(border1)
-  q19 = options(uline + "Question 19/20: When was the Treaty Of Waitangi signed" + end + "\n1) 4 Semptember 1845 \n2) 9 May 1840 \n3) 13 October 1845 \n4) 6 February 1840 \n", 0, 4)
+  q19 = options(uline + "Question 19/20: When was the Treaty Of Waitangi signed?" + end + "\n1) 4 Semptember 1845 \n2) 9 May 1840 \n3) 13 October 1845 \n4) 6 February 1840 \n", 0, 4)
   if q19 == 4:
     print(c_grn + "(4) 6 February 1840 is the correct answer, nice {}!".format(name) + end)
     correct += 1
