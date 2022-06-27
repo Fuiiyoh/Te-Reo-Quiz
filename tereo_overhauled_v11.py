@@ -207,7 +207,7 @@ elif diff_mode == "hard":
     "If you wanted to ask your friend where they're going what would you say?",
     "If your friend said “Kei te haere ahau ki te hokomaha” where would they be going?",
     "If pango is black, what else is black?",
-    "Which iwi is based from the West Coast of Aotearoa?",
+    "Which iwi is based from the West Region of Aotearoa?",
     "What kind of fish did Maui pull up from the ocean and became the North Island?",
     "Matariki is a special occasion in Aotearoa, what sentence isn't true?",
     "What year was the first Māori Language Week?",
