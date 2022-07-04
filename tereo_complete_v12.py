@@ -334,8 +334,8 @@ def generate_questions(question, answer_correct, answer_wrong1, answer_wrong2, a
     print("2)", answer_wrong2)
     print("3)", answer_wrong3)
     print("4)", answer_correct)
-    ans = options("", 0, 4)
-    if ans == 4:
+    option_answer = options("", 0, 4)
+    if option_answer == 4:
       print(green + "{} is the correct answer, nice {}!".format(answer_correct, name) + end)
       correct += 1
     else:
@@ -348,8 +348,8 @@ def generate_questions(question, answer_correct, answer_wrong1, answer_wrong2, a
     print("2)", answer_wrong1)
     print("3)", answer_wrong2)
     print("4)", answer_wrong3)
-    ans = options("", 0, 4)
-    if ans == 1:
+    option_answer = options("", 0, 4)
+    if option_answer == 1:
       print(green + "{} is the correct answer, nice {}!".format(answer_correct, name) + end)
       correct += 1
     else:
@@ -362,8 +362,8 @@ def generate_questions(question, answer_correct, answer_wrong1, answer_wrong2, a
     print("2)", answer_correct)
     print("3)", answer_wrong1)
     print("4)", answer_wrong2)
-    ans = options("", 0, 4)
-    if ans == 2:
+    option_answer = options("", 0, 4)
+    if option_answer == 2:
       print(green + "{} is the correct answer, nice {}!".format(answer_correct, name) + end)
       correct += 1
     else:
@@ -376,8 +376,8 @@ def generate_questions(question, answer_correct, answer_wrong1, answer_wrong2, a
     print("2)", answer_wrong3)
     print("3)", answer_correct)
     print("4)", answer_wrong1)
-    ans = options("", 0, 4)
-    if ans == 3:
+    option_answer = options("", 0, 4)
+    if option_answer == 3:
       print(green + "{} is the correct answer, nice {}!".format(answer_correct, name) + end)
       correct += 1
     else:
