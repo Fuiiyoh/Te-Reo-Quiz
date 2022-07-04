@@ -319,7 +319,7 @@ def generate_questions(question, answer_correct, answer_wrong1, answer_wrong2, a
   print(border1)
   question_current += 1
 
-  print(underline + "Question {}/{}".format(question_current,question_max), question + end)
+  print(underline + "Question {}/{}:".format(question_current,question_max), question + end)
   # per question it uses the "OPTIONS FUNCTION"
   
   #generates a random number to determine the flow of questions 
